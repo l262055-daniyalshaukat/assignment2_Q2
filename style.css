@@ -1,0 +1,166 @@
+body {
+    font-family: Arial;
+    background-color: lightgrey;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Center and boundary box for the CV layout structure */
+#cv-wrapper {
+    background-color: white;
+    width: 650px;
+    margin: 0 auto;
+    
+}
+
+.content-padding {
+    padding: 0 40px 30px 40px;
+}
+
+#header {
+    background-color:crimson;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+#profile-pic {
+    width: 110px;
+    height: 110px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+#header h1 {
+    margin: 15px 0 5px 0;
+    font-size: 28px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.subtitle {
+    margin: 0;
+    font-style: italic;
+    font-size: 14px;
+}
+
+h2 {
+    color: crimson;
+    font-size: 18px;
+    margin: 35px 0 8px 0;
+    padding-bottom: 5px;
+    border-bottom: 2px solid crimson;
+}
+
+#contact-box {
+    border: 1px solid #D6E4E6;
+    background-color: rgb(235, 235, 235);
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+#contact-box p {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+#contact-box a {
+    color: crimson;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #D6E4E6;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    color: black;
+}
+
+.table-header-row {
+    background-color: crimson;
+    color: white;
+}
+
+#skills-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 13px;
+    color: #333333;
+}
+
+#skills-list li {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.skill-name {
+    width: 150px;
+}
+
+progress {
+    width: 160px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: #EDEDED;
+    border: none;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #EDEDED;
+    border-radius: 6px;
+}
+
+progress::-webkit-progress-value {
+    background-color: crimson;
+    border-radius: 6px;
+}
+
+.project-item {
+    background-color: #F7FAFA;
+    border: 1px solid #E2ECEF;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+summary {
+    padding: 12px;
+    font-weight: bold;
+    color: #215F6E;
+    cursor: pointer;
+    outline: none;
+}
+
+.project-item p {
+    margin: 0;
+    padding: 0 12px 12px 28px;
+    color: #555555;
+    line-height: 1.5;
+}
+
+#footer {
+    text-align: center;
+    font-size: 11px;
+    color: #888888;
+    padding: 20px 0;
+    border-top: 1px solid #EAEAEA;
+}
+
+#footer a {
+    color: #215F6E;
+}
